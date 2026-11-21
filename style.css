@@ -258,4 +258,16 @@ a.btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(56, 189, 248, 0.25);
 }
+body {
+    animation: pageFadeIn 0.8s ease-in;
+}
+
+@keyframes pageFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
  
