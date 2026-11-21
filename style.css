@@ -242,5 +242,8 @@ footer {
     height: auto !important;
     opacity: 1 !important;
     visibility: visible !important;
+    html {
+    scroll-behavior: smooth;
+}
 }
  
