@@ -93,7 +93,7 @@ footer {
 @media (max-width: 600px) {
     header {
         flex-direction: column;
-    }
+    } i
 
     nav a {
         margin: 5px;
@@ -107,4 +107,7 @@ footer {
     section {
         padding: 55px 7%;
     }
+}
+body {
+    background-color: red !important;
 }
