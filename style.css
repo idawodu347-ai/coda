@@ -1,1 +1,113 @@
 
+/* CODA DIGITAL AGENCY */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #101827;
+    line-height: 1.6;
+}
+
+header {
+    background: #101827;
+    color: white;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+header h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+#home {
+    background: #101827;
+    color: white;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home h2 {
+    font-size: 45px;
+    max-width: 600px;
+    margin-bottom: 15px;
+}
+
+#home p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+#home a {
+    background: #2563eb;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#about, #services, #contact {
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #101827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #home h2 {
+        font-size: 34px;
+    }
+
+    section {
+        padding: 55px 7%;
+    }
+}
+body {
+    background-color: red !important;
+}
