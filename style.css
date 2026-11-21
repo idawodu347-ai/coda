@@ -417,6 +417,28 @@ footer {
         gap: 30px;
     }
 }
+#back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    background: #38bdf8;
+    color: #080e1d;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    z-index: 999;
+    transition: 0.3s ease;
+}
 
+#back-to-top:hover {
+    background: #1d4ed8;
+    color: white;
+    transform: translateY(-4px);
+}
 
 
