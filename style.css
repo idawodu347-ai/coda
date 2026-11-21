@@ -194,4 +194,30 @@ footer {
         min-height: 480px;
     }
 }
+.menu-toggle {
+    display: none;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav.active {
+        display: block;
+    }
+}
  
