@@ -236,5 +236,11 @@ footer {
     .brand img {
         width: 155px;
     }
+}header .brand img {
+    display: block !important;
+    width: 180px !important;
+    height: auto !important;
+    opacity: 1 !important;
+    visibility: visible !important;
 }
  
