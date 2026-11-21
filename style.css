@@ -246,4 +246,16 @@ footer {
     scroll-behavior: smooth;
 }
 }
+button,
+.btn,
+a.btn {
+    transition: all 0.3s ease;
+}
+
+button:hover,
+.btn:hover,
+a.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.25);
+}
  
