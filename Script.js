@@ -57,4 +57,4 @@ if (successMessage) {
 
 setTimeout(function() {
     window.location.href = whatsappURL;
-}, 1500);
+}, 3000);
