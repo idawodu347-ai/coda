@@ -1,9 +1,11 @@
+
 const menuButton = document.getElementById("menu-toggle");
 const navMenu = document.getElementById("nav-menu");
 
 menuButton.addEventListener("click", function() {
     navMenu.classList.toggle("active");
 });
+
 const backToTop = document.getElementById("back-to-top");
 
 window.addEventListener("scroll", function() {
@@ -20,3 +22,4 @@ backToTop.addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+ 
