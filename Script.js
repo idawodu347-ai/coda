@@ -1,6 +1,7 @@
 
 
 const menuButton = document.getElementById("menu-toggle");
+alert("CODA JavaScript is running!");
 const navMenu = document.getElementById("nav-menu");
 
 if (menuButton && navMenu) {
