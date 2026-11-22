@@ -139,41 +139,45 @@
             Chat With Us on WhatsApp
         </a>
     </div>
+
     <div class="enquiry-form">
-    <h3>Send Us an Enquiry</h3>
+        <h3>Send Us an Enquiry</h3>
+
+        <p id="success-message"
+           style="display:none; color:#38bdf8; text-align:center;">
+            Thank you! Your enquiry is ready.
+        </p>
+
         <form id="enquiry-form">
-<p id="success-message" style="display:none; color:#38bdf8; text-align:center;">
-    Thank you! Your enquiry is ready. We'll connect with you shortly.
-</p>
-          <a id="whatsapp-continue"
-   href="#"
-   target="_blank"
-   rel="noopener noreferrer"
-   style="display:none;">
-   Continue to WhatsApp
-</a>  
-    <form id="enquiry-form">
-        <input type="text" id="client-name"
-            placeholder="Your Name" required>
+            <input type="text" id="client-name"
+                placeholder="Your Name" required>
 
-        <input type="email" id="client-email"
-            placeholder="Your Email" required>
+            <input type="email" id="client-email"
+                placeholder="Your Email" required>
 
-        <select id="client-service" required>
-            <option value="">Select a Service</option>
-            <option>Web Development</option>
-            <option>Graphic Design</option>
-            <option>Digital Marketing</option>
-            <option>Social Media Management</option>
-        </select>
+            <select id="client-service" required>
+                <option value="">Select a Service</option>
+                <option>Web Development</option>
+                <option>Graphic Design</option>
+                <option>Digital Marketing</option>
+                <option>Social Media Management</option>
+            </select>
 
-        <textarea id="client-message"
-            placeholder="Tell us about your project"
-            required></textarea>
+            <textarea id="client-message"
+                placeholder="Tell us about your project"
+                required></textarea>
 
-        <button type="submit">Send Enquiry</button>
-    </form>
-</div>
+            <button type="submit">Send Enquiry</button>
+        </form>
+
+        <a id="whatsapp-continue"
+           href="#"
+           target="_blank"
+           rel="noopener noreferrer"
+           style="display:none;">
+            Continue to WhatsApp
+        </a>
+    </div>
 </section>
     
 <section id="portfolio">
