@@ -49,4 +49,6 @@ if (enquiryForm) {
 
         alert("Thank you for contacting CODA! Your WhatsApp enquiry is ready.");
 
-window.location.href = whatsappURL;
+        window.location.href = whatsappURL;
+    });
+}
