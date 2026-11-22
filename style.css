@@ -581,4 +581,51 @@ footer {
     margin-top: 10px;
     color: #92400e;
 }
+.social-preview {
+    background: linear-gradient(135deg, #0e7490, #164e63);
+    padding: 15px;
+    min-height: 180px;
+}
+
+.social-design {
+    min-height: 150px;
+    background: #ecfeff;
+    color: #164e63;
+    border-radius: 8px;
+    padding: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-design > span:first-child {
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.social-design h2 {
+    font-size: 23px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+
+.social-design p {
+    font-size: 9px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.social-stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.social-stats span {
+    font-size: 9px;
+    color: #0e7490;
+}
 
