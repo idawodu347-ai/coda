@@ -628,4 +628,20 @@ footer {
     font-size: 9px;
     color: #0e7490;
 }
+.preview-browser {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.preview-browser h4 {
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 10px;
+}
+
+.preview-browser p {
+    font-size: 13px;
+    line-height: 1.5;
+}
 
