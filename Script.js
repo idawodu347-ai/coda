@@ -49,6 +49,12 @@ if (enquiryForm) {
 
         
 
-        window.location.href = whatsappURL;
-    });
+        const successMessage = document.getElementById("success-message");
+
+if (successMessage) {
+    successMessage.style.display = "block";
 }
+
+setTimeout(function() {
+    window.location.href = whatsappURL;
+}, 1500);
