@@ -47,7 +47,7 @@ if (enquiryForm) {
             "https://wa.me/2348085372524?text=" +
             encodeURIComponent(whatsappMessage);
 
-        alert("Thank you for contacting CODA! Your WhatsApp enquiry is ready.");
+        
 
         window.location.href = whatsappURL;
     });
