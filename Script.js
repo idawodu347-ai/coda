@@ -47,14 +47,11 @@ if (enquiryForm) {
             "https://wa.me/2348085372524?text=" +
             encodeURIComponent(whatsappMessage);
 
-        
-
         const successMessage = document.getElementById("success-message");
+        const whatsappContinue = document.getElementById("whatsapp-continue");
 
-if (successMessage) {
-    successMessage.style.display = "block";
+        successMessage.style.display = "block";
+        whatsappContinue.href = whatsappURL;
+        whatsappContinue.style.display = "inline-block";
+    });
 }
-
-setTimeout(function() {
-    window.location.href = whatsappURL;
-}, 3000);
