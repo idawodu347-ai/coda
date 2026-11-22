@@ -545,5 +545,40 @@ footer {
 }
     }
 }
+.brand-preview {
+    background: linear-gradient(135deg, #581c87, #1e1b4b);
+    padding: 15px;
+    min-height: 180px;
+}
 
+.brand-design {
+    min-height: 150px;
+    background: #fef3c7;
+    color: #1e1b4b;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-design span {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #92400e;
+}
+
+.brand-design h2 {
+    font-size: 25px;
+    line-height: 1.1;
+    font-weight: 900;
+}
+
+.brand-design p {
+    font-size: 9px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    color: #92400e;
+}
 
