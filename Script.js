@@ -26,6 +26,7 @@ if (backToTop) {
 }
 
 const enquiryForm = document.getElementById("enquiry-form");
+alert("Enquiry form found: " + Boolean(enquiryForm));
 
 if (enquiryForm) {
     enquiryForm.addEventListener("submit", function(event) {
