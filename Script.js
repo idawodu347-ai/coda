@@ -22,4 +22,27 @@ backToTop.addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+const enquiryForm = document.getElementById("enquiry-form");
+
+enquiryForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("client-name").value;
+    const email = document.getElementById("client-email").value;
+    const service = document.getElementById("client-service").value;
+    const message = document.getElementById("client-message").value;
+
+    const whatsappMessage =
+        "Hello CODA Digital Agency!\n\n" +
+        "Name: " + name + "\n" +
+        "Email: " + email + "\n" +
+        "Service: " + service + "\n" +
+        "Project Details: " + message;
+
+    const whatsappURL =
+        "https://wa.me/2348085372524?text=" +
+        encodeURIComponent(whatsappMessage);
+
+    window.open(whatsappURL, "_blank");
+});
  
